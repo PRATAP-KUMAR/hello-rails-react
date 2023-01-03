@@ -1,0 +1,6 @@
+Greeting.create(message: "It's nice to meet you")
+Greeting.create(message: "It's nice to have work with rails and react together")
+Greeting.create(message: "It's nice to working with you")
+Greeting.create(message: "It's nice to have work with rails and react together")
+Greeting.create(message: "It's nice to have a team member like you")
+
