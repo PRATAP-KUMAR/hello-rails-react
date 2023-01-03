@@ -1,24 +1,25 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getDataAction } from '../redux/greeting/greeting';
 
 const GreetingPage = () => {
-    const greetingData = useSelector((state) => state.greetingReducer);
+    const array = useSelector((state) => state.greeting);
     const dispatch = useDispatch();
 
-    const [value, setValue] = useState('');
-
     useEffect(() => {
-        dispatch(getDataAction)
+        dispatch(getDataAction());
+    }, []);
 
-        return (
+    return (
+        <>
             <h1>
-                HELLO RAILS
-                {greetingData.length}
+                Welcome to Hello Rails React Project
             </h1>
-        );
-    })
-
+            <div className="message">
+                {array.message}
+            </div>
+        </>
+    )
 }
 
 export default GreetingPage;

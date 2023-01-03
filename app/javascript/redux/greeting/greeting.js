@@ -6,6 +6,7 @@ const API = 'http://localhost:3000/api/messages';
 const initialState = [];
 
 const greetingReducer = (state = initialState, action) => {
+  console.log(action.payload);
   switch (action.type) {
     case GET_DATA:
       return action.payload;
@@ -15,10 +16,9 @@ const greetingReducer = (state = initialState, action) => {
 };
 
 export const getDataAction = () => (dispatch) => {
-  axios.get(API).then((response) => {
-    const { data } = response;
-    console.log(data);
-    dispatch({ type: GET_DATA, payload: data });
+  axios.get(API).then((resonse) => {
+    const {data} = resonse;
+    dispatch({ type: GET_DATA, payload: data[0] })
   });
 };
 

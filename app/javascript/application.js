@@ -8,20 +8,21 @@ import store from './redux/configureStore';
 
 function App() {
   return (
-    <Routes>
-      <h1>Thank You</h1>
-      <Route path="/" element={<GreetingPage />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<GreetingPage />} />
+      </Routes>
+    </>
   );
 }
 
 ReactDOM.render(
   <BrowserRouter>
     <Provider store={store}>
-      <App />,
+      <App />
     </Provider>
   </BrowserRouter>,
-  document.getElementById('root'),
+  document.getElementById('root')
 )
 
 
