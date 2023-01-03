@@ -1,0 +1,45 @@
+{:uriI"‡file://app/assets/builds/application.js.LICENSE.txt?type=text/plain&id=5fc71eb110edb701d0b5af44426cf48ef531e8ddb0bfb8e3adb7245bac2acf35:ET:load_pathI"app/assets/builds;T:filenameI"1app/assets/builds/application.js.LICENSE.txt;T:	nameI"application.js.LICENSE;T:logical_pathI"application.js.LICENSE.txt;T:content_typeI"text/plain;T:sourceI"µ/**
+ * @license React
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @remix-run/router v1.2.1
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"4processors:type=text/plain&file_type=text/plain;TTI"?file-digest://app/assets/builds/application.js.LICENSE.txt;TTF:charsetI"
+utf-8;F:digest"%¡Õy©\€-ÊÃdNæyàÁ¢uc]Ç.™L>:j¥5:lengthiµ:environment_versionI"1.0;T:dependencies_digest"%ƒ¶”•Æ`Htq_äÑ®+ÝX¤þ#XçëU*`„«Ðe«':idI"E5fc71eb110edb701d0b5af44426cf48ef531e8ddb0bfb8e3adb7245bac2acf35;F

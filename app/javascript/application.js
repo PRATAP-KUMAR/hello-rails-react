@@ -1,12 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Router from './components/Router';
+import { Provider } from 'react-redux';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import GreetingPage from './components/GreetingPage';
+
+import store from './redux/configureStore';
 
 function App() {
-  return (<h1>Hello World!</h1>);
+  return (
+    <Routes>
+      <h1>Thank You</h1>
+      <Route path="/" element={<GreetingPage />} />
+    </Routes>
+  );
 }
 
 ReactDOM.render(
-  <App/>,
+  <BrowserRouter>
+    <Provider store={store}>
+      <App />,
+    </Provider>
+  </BrowserRouter>,
   document.getElementById('root'),
-);
+)
+
+

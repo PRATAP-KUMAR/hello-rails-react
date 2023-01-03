@@ -17,6 +17,7 @@ const greetingReducer = (state = initialState, action) => {
 export const getDataAction = () => (dispatch) => {
   axios.get(API).then((response) => {
     const { data } = response;
+    console.log(data);
     dispatch({ type: GET_DATA, payload: data });
   });
 };
