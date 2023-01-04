@@ -113,7 +113,7 @@ gem install rails
 To run the project, execute the following command from the root directory:
 
 ````
-./dev
+./bin/dev
 ````
 then open any browser and enter this address `localhost:3000`
 
